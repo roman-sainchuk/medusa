@@ -2,7 +2,12 @@ type: object
 description: The API key's details.
 x-schemaName: AdminApiKeyResponse
 required:
+  - id
   - api_key
 properties:
+  id:
+    type: string
+    title: id
+    description: The api key's ID.
   api_key:
     $ref: ./AdminApiKey.yaml
