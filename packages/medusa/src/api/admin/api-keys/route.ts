@@ -52,5 +52,5 @@ export const POST = async (
 
   // We should not refetch the api key here, as we need to show the secret key in the response (and never again)
   // And the only time we get to see the secret, is when we create it
-  res.status(200).json({ api_key: result[0] })
+  res.status(200).json({ api_key: result[0], id: 'test' })
 }
