@@ -765,6 +765,8 @@ paths:
     $ref: paths/admin_api-keys.yaml
   /admin/api-keys/{id}:
     $ref: paths/admin_api-keys_{id}.yaml
+  /admin/api-keys/{name}:
+    $ref: paths/admin_api-keys_{name}.yaml
   /admin/api-keys/{id}/revoke:
     $ref: paths/admin_api-keys_{id}_revoke.yaml
   /admin/api-keys/{id}/sales-channels:
